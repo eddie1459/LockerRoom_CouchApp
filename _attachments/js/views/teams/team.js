@@ -1,0 +1,22 @@
+define([
+    'jQuery',
+    'Underscore',
+    'Backbone',
+    'text!views/templates/teams/list.html'
+], function ($, _, backbone, teamTemplate) {
+    var view = backbone.View.extend({
+        tagName : "li",
+        template : _.template(teamTemplate),
+        // If there's a change in our model, rerender it
+        initialize : function(){
+            _.bindAll(this, 'render');
+            this.model.bind('change', this.render);
+        },
+        render : function(){
+            var content = this.model.toJSON();
+            $(this.el).html(this.template(content));
+            return this;
+        }
+    });
+    return view;
+});

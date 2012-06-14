@@ -1,0 +1,58 @@
+/* add styles here */
+
+body {
+    padding:0px;
+    margin:0px;
+}
+
+#id {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+#edititem li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    color: #339;
+    font-weight: bold;
+}
+
+#home {
+    float:left;
+    width:100px;
+}
+
+#admin {
+    float: right;
+    background: lightgray;
+}
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    background: lightgray;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    background: lightgray;
+}
+
+.clear {
+    clear: both;
+}
+.delete {
+	/*padding: .25em;*/
+    float: right;
+	background-color: #ff0000;
+	color: #fff;
+	opacity: .1;
+}
+
+.delete:hover{
+	opacity: .9;
+	cursor: pointer;
+}
