@@ -9,6 +9,7 @@ define([
     var Teams = new teamCollection();
     var TeamView = backbone.View.extend({
         el: $("#content"),
+        tagName : "ul",
         initialize : function(){
             _.bindAll(this, 'refreshed', 'addRow');
             Teams.bind("addToList", this.addRow);

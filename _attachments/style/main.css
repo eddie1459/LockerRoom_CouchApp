@@ -11,6 +11,11 @@ body {
     width: 0;
 }
 
+#teamLineItem li {
+    float: left;
+    /*clear: both;*/
+}
+
 #edititem li {
     display: inline;
     margin: 0;
@@ -41,9 +46,6 @@ body {
     background: lightgray;
 }
 
-.clear {
-    clear: both;
-}
 .delete {
 	/*padding: .25em;*/
     float: right;
