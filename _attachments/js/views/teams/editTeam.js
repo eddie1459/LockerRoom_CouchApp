@@ -6,6 +6,7 @@ define([
 ], function ($, _, backbone, editTeamTemplate) {
     var view = backbone.View.extend({
         id: "teamLineItem",
+        tagName: "li",
         template : _.template(editTeamTemplate),
         // If there's a change in our model, rerender it
         events : {
