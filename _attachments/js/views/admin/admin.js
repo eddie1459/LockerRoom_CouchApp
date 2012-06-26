@@ -4,9 +4,10 @@ define([
     'Backbone',
     'collections/teams',
     'views/teams/addTeam',
+    'views/game/addGame',
     'text!views/templates/admin/admin.html',
     'text!views/templates/game/addGame.html'
-], function ($, _, backbone, teamCollection, addTeamView, adminTemplate, addGameTemplate) {
+], function ($, _, backbone, teamCollection, addTeamView, addGameView, adminTemplate) {
     var Teams = new teamCollection();
     var view = backbone.View.extend({
         el : $("#content"),
@@ -27,9 +28,10 @@ define([
         },
         addGames : function(){
             // reset the table
-            $("#content").html("");
-            /*$("#content").html(_.template(addGameTemplate, {teams: Teams.toJSON()}));*/
-            $("#content").html(Mustache.render(addGameTemplate,{teams: Teams.toJSON()}));
+            /*$("#content").html("");
+            $("#content").html(Mustache.render(addGameTemplate,{teams: Teams.toJSON()}));*/
+            var view = new addGameView();
+            view.render();
         },
         initialize : function(){
             _.bindAll(this, 'refreshed');

@@ -1,12 +1,10 @@
 define([
+    'Underscore',
     'Backbone',
     'models/game'
-], function (backbone, gameModel) {
+], function (_, backbone, gameModel) {
     return backbone.Collection.extend({
         url: "/games",
-        model: gameModel,
-        comparator : function(game){
-            return game.get("date");
-        }
+        model: gameModel
     });
 });
