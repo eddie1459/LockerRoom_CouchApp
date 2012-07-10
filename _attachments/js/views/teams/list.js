@@ -21,7 +21,9 @@ define([
             var rendered = view.render().$el;
             rendered.bind('click', function(row){
                 var gameList = new gameView($(this).closest('li').find('div').text());
+                $(this).closest('li').append(gameList.render().$el);
             })
+
             this.$el.prepend(rendered);
         },
         refreshed : function(){
