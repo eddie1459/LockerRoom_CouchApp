@@ -15,6 +15,7 @@ define([
         events : {
             "click #createGame" : "onCreateGame"
         },
+
         render : function(){
             // reset the table
             $("#content").html("");

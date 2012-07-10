@@ -15,7 +15,7 @@ define([
             Games.bind("reset", this.refreshed);
             Games.fetch({data: $.param({teamId1:teamId})});
             var newModels = Games.filter(function(game) {
-                return game.get('teamId1') === teamId;
+                return game.get('teamId1') === teamId || game.get('teamId2') == teamId;
             });
             filteredCollection = new backbone.Collection(newModels);
             this.refreshed();

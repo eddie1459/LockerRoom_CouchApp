@@ -14,7 +14,12 @@ define([
         },
         render : function(){
             var content = this.model.toJSON();
-            content.date = new Date(content.date);
+            var currentDt = new Date(content.date);
+            var mm = currentDt.getMonth() + 1;
+            var dd = currentDt.getDate();
+            var yyyy = currentDt.getFullYear();
+            var date = mm + '/' + dd + '/' + yyyy;
+            content.date = date;
             $(this.el).html(this.template(content));
             return this;
         }
