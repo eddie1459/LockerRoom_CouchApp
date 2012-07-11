@@ -5,8 +5,7 @@ define([
     'collections/teams',
     'views/teams/addTeam',
     'views/game/addGame',
-    'text!views/templates/admin/admin.html',
-    'text!views/templates/game/addGame.html'
+    'text!views/templates/admin/admin.html'
 ], function ($, _, backbone, teamCollection, addTeamView, addGameView, adminTemplate) {
     var Teams = new teamCollection();
     var view = backbone.View.extend({
@@ -24,7 +23,7 @@ define([
         },
         addTeams : function(){
             var view = new addTeamView({collection: Teams});
-            view.refreshTeams();
+            view.render();
         },
         addGames : function(){
             // reset the table

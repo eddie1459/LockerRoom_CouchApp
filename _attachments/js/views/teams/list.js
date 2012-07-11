@@ -9,7 +9,6 @@ define([
     var Teams = new teamCollection();
     var TeamView = backbone.View.extend({
         el: $("#content"),
-        /*tagName : "ul",*/
         initialize : function(){
             _.bindAll(this, 'refreshed', 'addRow');
             Teams.bind("addToList", this.addRow);
@@ -20,8 +19,8 @@ define([
             var view = new teamView({model: team});
             var rendered = view.render().$el;
             rendered.bind('click', function(row){
-                var gameList = new gameView($(this).closest('li').find('div').text());
-                $(this).closest('li').append(gameList.render().$el);
+                var gameList = new gameView($(this).closest('li').attr('id'));
+                $(this).closest('li').find('#games').html(gameList.render().$el);
             })
 
             this.$el.prepend(rendered);

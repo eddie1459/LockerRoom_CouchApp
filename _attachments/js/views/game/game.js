@@ -5,7 +5,6 @@ define([
     'text!views/templates/game/game.html'
 ], function ($, _, backbone, gameTemplate) {
     var view = backbone.View.extend({
-        /*tagName : "li",*/
         template : _.template(gameTemplate),
         // If there's a change in our model, rerender it
         initialize : function(){

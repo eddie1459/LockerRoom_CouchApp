@@ -9,6 +9,7 @@ define([
         // If there's a change in our model, rerender it
         el: $("#content"),
         tagName : "ul",
+        className : "nav nav-tabs nav-stacked",
         events : {
             "click #send" : "onSubmit"
         },
@@ -28,7 +29,10 @@ define([
             }
             $("#content").append(_.template(addTeamTemplate));
         },
-
+        render : function(){
+            this.refreshTeams();
+            return this;
+        },
         initialize : function(){
             _.bindAll(this, "onSubmit");
         },
