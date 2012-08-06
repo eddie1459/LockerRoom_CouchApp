@@ -2,14 +2,11 @@ define([
     'jQuery',
     'Underscore',
     'Backbone',
-    'views/game/gameLog',
-    'text!views/templates/game/game.html'
-], function ($, _, backbone, logView, gameTemplate) {
+    'text!views/templates/message/message.html'
+], function ($, _, backbone, messageTemplate) {
     var view = backbone.View.extend({
-        template : _.template(gameTemplate),
-        events : {
-            'click #game': 'showGameLog'
-        },
+        tagName : "li",
+        template : _.template(messageTemplate),
         // If there's a change in our model, rerender it
         initialize : function(){
             _.bindAll(this, 'render');
@@ -25,9 +22,6 @@ define([
             content.date = date;
             $(this.el).html(this.template(content));
             return this;
-        },
-        showGameLog : function(){
-            var view = new logView(this.model.id);
         }
     });
     return view;

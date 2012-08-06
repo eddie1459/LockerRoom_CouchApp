@@ -2,15 +2,13 @@ define([
     'jQuery',
     'Underscore',
     'Backbone',
-    'collections/teams',
     'views/teams/addTeam',
     'views/game/addGame',
     'text!views/templates/admin/admin.html'
-], function ($, _, backbone, teamCollection, addTeamView, addGameView, adminTemplate) {
-    var Teams = new teamCollection();
+], function ($, _, backbone, addTeamView, addGameView, adminTemplate) {
+
     var view = backbone.View.extend({
         el : $("#content"),
-        // If there's a change in our model, rerender it
         events : {
             /*"click #send" : "onSubmit",*/
             "click #addTeams": "addTeams",
@@ -22,7 +20,7 @@ define([
             $("#content").append(this.template);
         },
         addTeams : function(){
-            var view = new addTeamView({collection: Teams});
+            var view = new addTeamView();
             view.render();
         },
         addGames : function(){
@@ -37,6 +35,6 @@ define([
             this.refreshed();
         }
     });
-    Teams.fetch();
+
     return view;
 });

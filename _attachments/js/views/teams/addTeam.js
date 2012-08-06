@@ -2,13 +2,14 @@ define([
     'jQuery',
     'Underscore',
     'Backbone',
+    'collections/teams',
     'views/teams/editTeam',
     'text!views/templates/teams/addTeam.html'
-], function ($, _, backbone, teamView, addTeamTemplate) {
+], function ($, _, backbone, teamCollection, teamView, addTeamTemplate) {
+    var Teams = new teamCollection();
     var view = backbone.View.extend({
         // If there's a change in our model, rerender it
         el: $("#content"),
-        tagName : "ul",
         className : "nav nav-tabs nav-stacked",
         events : {
             "click #send" : "onSubmit"
@@ -23,9 +24,9 @@ define([
         },
         refreshTeams : function(){
             $("#content").html("");
-            if(this.collection.length > 0){
+            if(Teams.length > 0){
                 // add each element
-                this.collection.each(this.addNew);
+                Teams.each(this.addNew);
             }
             $("#content").append(_.template(addTeamTemplate));
         },
@@ -34,7 +35,6 @@ define([
             return this;
         },
         initialize : function(){
-            _.bindAll(this, "onSubmit");
         },
         // Simply takes the vals from the input fields and
         // creates a new Team.
@@ -42,12 +42,13 @@ define([
             var name = $("#name").val();
             // sanitize user input...you never know ;)
             name = name.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
-            this.collection.create({
+            Teams.create({
                 "name" : name,
                 "date" : new Date().getTime()
             });
             this.refreshTeams();
         }
     });
+    Teams.fetch();
     return view;
 });
