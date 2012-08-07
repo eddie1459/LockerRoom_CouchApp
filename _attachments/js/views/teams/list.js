@@ -12,7 +12,6 @@ define([
         initialize : function(){
             _.bindAll(this, 'refreshed', 'addRow');
             Teams.bind("reset", this.refreshed);
-            Teams.bind("add", this.addRow);
         },
         // Prepends an entry row
         addRow : function(team){

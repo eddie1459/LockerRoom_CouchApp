@@ -58,3 +58,213 @@ body {
 	opacity: .9;
 	cursor: pointer;
 }
+
+/*
+   Script name  : Facebook like comment script
+   File Name 	: style.css
+   Developed By : Amit Patil (India)
+   Contact	 	: amitpatil321@gmail.com
+   Date Created : 04 Feb 2011
+   Last Updated : 09 April 2011
+         This program is freeware.There is no any copyright and bla bla bla.
+   You can use it for your personal use.You can also make any changes to this script.
+   But before using this script i would appericiate your mail.That will encourage me a lot.
+   Any suggestions are always welcome.
+   Have a fun with Programming.
+*/
+.outer {
+    width:400px;
+    margin:auto;
+    background-color: #EDEFF4;
+    border-bottom: 1px solid #E5EAF1;
+    border-bottom: 1px solid #CCD6E3;
+    margin-top: 2px;
+    /*padding: 5px 4px;*/
+    height:auto;
+    min-height:50px;
+    color: #333333;
+    direction: ltr;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    /*   Hack for breking long lines   */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap : break-word; /* Internet Explorer 5.5+ */
+}
+.inner {
+    width:85px;
+    margin:5px;
+}
+/*.inner img, #post-comment img{
+    -moz-box-shadow: 3px 3px 3px #888;
+    -webkit-box-shadow: 3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888;
+}
+.delete {
+    margin:5px;
+}
+* html .inner {display:inline}*//* for ie*//*
+html>body .inner, .delete {display:table;float:left}*//*for mozilla *//*
+@media all and (min-width: 0px){*//* opera 7 styles *//*
+    html>body .inner, .delete {display:inline-block; *//*float:none;*//*}
+}*/
+
+/*#avatar{
+    width:35px;
+    height:35px;
+}*/
+.fb-comment-holder{
+    width : 400px;
+    margin-left:30%;
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+}
+/*#uemail {
+    *//*width: 188px !important;*//*
+}*/
+#comment-holder{
+    width:80%;
+    margin-right : 2px;
+    text-align:left;
+    vertical-align:top;
+}
+#post-comment{
+    background-color: #EDEFF4;
+    border-bottom: 1px solid #E5EAF1;
+    margin-top: 2px;
+    padding: 7px 4px;
+    overflow : auto;
+    overflow:hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height:auto;
+    min-height:50px;
+}
+.reply-holder{
+    background-color: #EDEFF4;
+    border-bottom: 1px solid #E5EAF1;
+    margin-top: 2px;
+    padding: 5px 0px 5px 5px;
+    display:none;
+    overflow:auto;
+    height : auto;
+}
+/*.delete{
+    background:url("../images/delete.png") no-repeat left top;
+    width:15px;
+    height:15px;
+    visibility:hidden;
+}
+.delete-hover{
+    background:url("../images/delete.png") no-repeat left -30px;
+    width:15px;
+    height:15px;
+    cursor : pointer;
+}*/
+.comment-text{
+    background-color: #EDEFF4;
+    padding: 0px 4px;
+    text-align:left;
+    color: #333333;
+    direction: ltr;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    float:right;
+    clear: left;
+    width: 330px;
+    border : 1px solid red;
+    /*   Hack for breking long lines   */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap : break-word; /* Internet Explorer 5.5+ */
+}
+
+
+#show-more{
+    background-color: #EDEFF4;
+    padding : 5px 25px;
+    background-position : 2px 5px;
+    background-repeat : no-repeat;
+}
+
+#msgComment{
+    width:100%;
+}
+#msgComment a{
+    color: #3B5998;
+    font-weight : bold;
+    text-decoration : none;
+}
+#msgComment a:hover{
+    text-decoration : underline;
+}
+.ago{
+    width:88%;
+    clear:left;
+    color: #808080;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    display : block;
+
+}
+#post-comment #comment{
+    height: 36px;
+    width : 344px;
+    float : right;
+    border : 1px solid #BDC7D8;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+    padding: 3px;
+    overflow:hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#post-comment #uname,#uemail{
+    border : 1px solid #BDC7D8;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+    padding-left : 2px;
+    margin-bottom : 4px;
+}
+.error{
+    background : #FFCCCC;
+}
+#post-comment span{
+    margin-right:1px;
+    margin-left:-2px;
+}
+#fb-button{
+    background-color: #5B74A8;
+    border-width : 1px;
+    border-color: #1A356E;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height : 20px;
+    outline: medium none;
+    white-space: nowrap;
+    margin-top:3px;
+}
+#submit-button{
+    display : none;
+    margin-left : 321px;
+}
+.lightText{
+    color : #9B9B9B;
+}
+#link-text{
+    font-size: 11px;
+    font-family: 'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+    cursor : pointer;
+    color : #3B5998;
+}
+#link-text:hover{
+    text-decoration : underline;
+}

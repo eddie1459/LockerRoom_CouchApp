@@ -5,7 +5,6 @@ define([
     'text!views/templates/message/message.html'
 ], function ($, _, backbone, messageTemplate) {
     var view = backbone.View.extend({
-        tagName : "li",
         template : _.template(messageTemplate),
         // If there's a change in our model, rerender it
         initialize : function(){

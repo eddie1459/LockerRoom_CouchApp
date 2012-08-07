@@ -21,7 +21,7 @@ define([
         },
         initialize : function(){
             _.bindAll(this, 'render', 'deleteMe');
-            this.model.bind('change', this.render);
+            /*this.model.bind('change', this.render);*/
         },
         render : function(){
             var content = this.model.toJSON();
