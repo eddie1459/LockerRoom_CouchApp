@@ -1,9 +1,15 @@
 /* add styles here */
-
 body {
-    padding:0px;
-    margin:0px;
+    padding-top: 60px;
 }
+@media (max-width: 979px) {
+    body {
+        padding-top: 0px;
+    }
+}
+
+/* hack for centering the main header */
+.brand { margin-left: auto; margin-right: auto; }
 
 #id {
     visibility: hidden;
@@ -29,21 +35,8 @@ body {
     width:100px;
 }
 
-#admin {
-    float: right;
-    background: lightgray;
-}
-
-#header {
-    margin-left: auto;
-    margin-right: auto;
-    background: lightgray;
-    text-align: center;
-}
-
 #footer {
     text-align: center;
-    background: lightgray;
 }
 
 .delete {
@@ -85,7 +78,7 @@ body {
     color: #333333;
     direction: ltr;
     font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     text-align: left;
     /*   Hack for breking long lines   */
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
@@ -171,7 +164,7 @@ html>body .inner, .delete {display:table;float:left}*//*for mozilla *//*
     color: #333333;
     direction: ltr;
     font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     text-align: left;
     float:right;
     clear: left;
@@ -218,7 +211,7 @@ html>body .inner, .delete {display:table;float:left}*//*for mozilla *//*
     float : right;
     border : 1px solid #BDC7D8;
     font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     padding: 3px;
     overflow:hidden;
     overflow-y: hidden;
