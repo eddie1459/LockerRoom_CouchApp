@@ -5,8 +5,9 @@ define([
     'Backbone',
     'collections/teams',
     'collections/games',
+    'views/admin/adminTeamList',
     'text!views/templates/game/addGame.html'
-], function ($, _, backbone, teamCollection, gameCollection, addGameTemplate) {
+], function ($, _, backbone, teamCollection, gameCollection, adminTeamList, addGameTemplate) {
     var Teams = new teamCollection();
     var Games = new gameCollection();
     var view = backbone.View.extend({
@@ -20,6 +21,9 @@ define([
             // reset the table
             $("#content").html("");
             $("#content").html(Mustache.render(addGameTemplate,{teams: Teams.toJSON()}));
+            var view = new adminTeamList();
+            view.refreshed();
+            $("#content").append(view.render());
         },
         initialize : function(){
         },
