@@ -34,6 +34,7 @@ define([
             filteredCollection = new messageCollection(newModels);
         },
         refreshed : function(){
+            this.getNewMessages();
             $("#content").html("");
             if(filteredCollection.length > 0){
                 // add each element
@@ -53,7 +54,6 @@ define([
                 "message" : $("#message").val(),
                 "date" : new Date().getTime()
             });
-            filteredCollection.add(msg);
             this.refreshed();
         }
     });
