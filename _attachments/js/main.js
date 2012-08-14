@@ -10,7 +10,6 @@ require([
     'app',
     'order!libs/jquery/jquery-min',
     'order!libs/bootstrap/bootstrap',
-    'order!libs/bootstrap/bootstrap-collapse',
     'order!libs/mustache/mustache-min',
     'order!libs/jquery_couch/jquery.couch',
     'order!libs/underscore/underscore-min',
