@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4117a4a-57e7-48c0-8e64-87fcc407e373" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_attachments/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_attachments/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_attachments/js/libs/bootstrap/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_attachments/js/libs/bootstrap/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_attachments/style/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_attachments/style/timepicker.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/js/collections/games.js" afterPath="$PROJECT_DIR$/_attachments/js/collections/games.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/js/views/admin/admin.js" afterPath="$PROJECT_DIR$/_attachments/js/views/admin/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/js/views/game/list.js" afterPath="$PROJECT_DIR$/_attachments/js/views/game/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/js/views/teams/list.js" afterPath="$PROJECT_DIR$/_attachments/js/views/teams/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/admin.html" afterPath="$PROJECT_DIR$/_attachments/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/js/main.js" afterPath="$PROJECT_DIR$/_attachments/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/js/views/game/addGame.js" afterPath="$PROJECT_DIR$/_attachments/js/views/game/addGame.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/js/views/templates/game/addGame.html" afterPath="$PROJECT_DIR$/_attachments/js/views/templates/game/addGame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_attachments/js/views/templates/teams/list.html" afterPath="$PROJECT_DIR$/_attachments/js/views/templates/teams/list.html" />
     </list>
     <ignored path="LockerRooomJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="addTeam.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_attachments/js/views/teams/addTeam.js">
+      <file leaf-file-name="addGame.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_attachments/js/views/game/addGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="65" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+            <state line="27" column="50" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -42,34 +46,43 @@
       <file leaf-file-name="list.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_attachments/js/views/game/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="76" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
+            <state line="33" column="34" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addGame.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_attachments/js/views/game/addGame.js">
+      <file leaf-file-name="admin.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_attachments/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="55" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
+            <state line="16" column="60" selection-start="652" selection-end="652" vertical-scroll-proportion="0.3234245">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_attachments/js/views/admin/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="30" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addGame.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="addGame.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_attachments/js/views/templates/game/addGame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="45" selection-start="439" selection-end="439" vertical-scroll-proportion="0.37457627">
+            <state line="21" column="25" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_attachments/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="49" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_attachments/js/views/templates/teams/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="71" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,39 +125,34 @@
     </commandsHistory>
   </component>
   <component name="Git.Settings">
-    <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_attachments/js/views/teams/addTeam.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/views/teams/editTeam.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/views/templates/teams/editTeam.html" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/templates/game/gameAdmin.html" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/game/adminGame.js" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/admin/adminList.js" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/admin/adminTeamList.js" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/templates/admin/admin.html" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/admin/adminGame.js" />
+        <option value="$PROJECT_DIR$/_attachments/style/main.css" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/templates/admin/gameAdmin.html" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/teams/team.js" />
         <option value="$PROJECT_DIR$/_attachments/js/views/templates/teams/list.html" />
-        <option value="$PROJECT_DIR$/filters/by_collection.js" />
-        <option value="$PROJECT_DIR$/filters/by_team.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/collections/editTeams.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/collections/filteredGames.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/views/teams/list.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/collections/testGames.js" />
-        <option value="$PROJECT_DIR$/filters/by_game.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/collections/games.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/collections/gamesList.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/views/game/list.js" />
-        <option value="$PROJECT_DIR$/_attachments/js/views/admin/admin.js" />
+        <option value="$PROJECT_DIR$/_attachments/js/libs/bootstrap/bootstrap-timepicker.js" />
+        <option value="$PROJECT_DIR$/_attachments/js/main.js" />
         <option value="$PROJECT_DIR$/_attachments/js/views/templates/game/addGame.html" />
+        <option value="$PROJECT_DIR$/_attachments/js/views/game/addGame.js" />
+        <option value="$PROJECT_DIR$/_attachments/style/timepicker.css" />
+        <option value="$PROJECT_DIR$/_attachments/admin.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="8" />
-    <option name="width" value="1749" />
-    <option name="height" value="1044" />
+    <option name="x" value="10" />
+    <option name="width" value="1761" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -200,7 +208,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byCollection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,54 +388,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LockerRooomJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LockerRoom_CouchApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_attachments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LockerRooomJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LockerRoom_CouchApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_attachments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -450,29 +414,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backbone_couchdb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LockerRooomJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LockerRoom_CouchApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_attachments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,8 +437,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -504,10 +446,11 @@
       <recent name="C:\Users\eddie\Desktop\LockerRooomJS\_attachments\style" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\eddie\Desktop\LockerRoomJS\_attachments\js\views\admin" />
-      <recent name="C:\Users\eddie\Desktop\LockerRoomJS\_attachments\js\libs\loader" />
-      <recent name="C:\Users\eddie\Desktop\LockerRoomJS\_attachments\js\views" />
-      <recent name="C:\Users\eddie\Desktop\LockerRoomJS\templates" />
+      <recent name="C:\Users\eddie\Desktop\LockerRoom_CouchApp\_attachments\img" />
+      <recent name="C:\Users\eddie\Desktop\LockerRoom_CouchApp\_attachments\style" />
+      <recent name="C:\Users\eddie\Desktop\LockerRoom_CouchApp\_attachments\js\libs\bootstrap" />
+      <recent name="C:\Users\eddie\Desktop\LockerRoom_CouchApp\_attachments\js\views\templates\admin" />
+      <recent name="C:\Users\eddie\Desktop\LockerRoom_CouchApp\_attachments\js\views\admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -541,6 +484,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="true">C:\Users\eddie\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
@@ -554,32 +498,84 @@
       <created>1340116132493</created>
       <updated>1340116132493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixing the Add Game screen">
+      <created>1340736303026</created>
+      <updated>1340736303026</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding in Twitter Bootstrap">
+      <created>1341935521559</created>
+      <updated>1341935521559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changing the main screen to show games on click of team accordion-style">
+      <created>1341960705303</created>
+      <updated>1341960705303</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixing some accordion collapsing issues and making more screens look the same">
+      <created>1342025527752</created>
+      <updated>1342025527752</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding in the game commenting system">
+      <created>1344262570015</created>
+      <updated>1344262570015</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finishing the facebook styling and fixing a couple of bugs">
+      <created>1344312292315</created>
+      <updated>1344312292315</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding more styling and splitting the Admin stuff off to its own page.">
+      <created>1344527472270</created>
+      <updated>1344527472270</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding in some css and the viewport meta info for IOS and tablet devices">
+      <created>1344606233676</created>
+      <updated>1344606233676</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fixed empty comments getting posted">
+      <created>1344653263742</created>
+      <updated>1344653263742</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added getTime function to the message view to show the time the comment was added">
+      <created>1344654474133</created>
+      <updated>1344654474133</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changing &quot;Add Teams&quot; in the admin section to &quot;Add/Edit Teams&quot;">
+      <created>1344654644448</created>
+      <updated>1344654644448</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Delete functionality to games in the Admin section.&#10;Moved admin views under the admin folder.">
+      <created>1344666116325</created>
+      <updated>1344666116325</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Removed bootstrap collapse plugin, found out it was included in the boostrap main file.">
+      <created>1344915049177</created>
+      <updated>1344915049177</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="8" width="1749" height="1044" extended-state="0" />
+    <frame x="10" y="0" width="1761" height="1052" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.49815497" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874015" sideWeight="0.49044585" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2760234" sideWeight="0.7251131" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21544716" sideWeight="0.7836323" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27488688" sideWeight="0.39122808" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21639344" sideWeight="0.42276424" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27488688" sideWeight="0.60467833" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26279527" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.4960464" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31138393" sideWeight="0.49782202" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.4960464" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2163677" sideWeight="0.5731707" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -619,7 +615,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Allowing Backbone to handle more of the html rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed bootstrap collapse plugin, found out it was included in the boostrap main file." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -635,12 +631,45 @@
     <confirmMoveToFailedCommit value="1" />
     <MESSAGE value="Fixing some issues" />
     <MESSAGE value="Allowing Backbone to handle more of the html rendering" />
+    <MESSAGE value="Fixing the Add Game screen" />
+    <MESSAGE value="Adding in Twitter Bootstrap" />
+    <MESSAGE value="Changing the main screen to show games on click of team accordion-style" />
+    <MESSAGE value="Fixing some accordion collapsing issues and making more screens look the same" />
+    <MESSAGE value="Adding in the game commenting system" />
+    <MESSAGE value="Finishing the facebook styling and fixing a couple of bugs" />
+    <MESSAGE value="Adding more styling and splitting the Admin stuff off to its own page." />
+    <MESSAGE value="Adding in some css and the viewport meta info for IOS and tablet devices" />
+    <MESSAGE value="Fixed empty comments getting posted" />
+    <MESSAGE value="Added getTime function to the message view to show the time the comment was added" />
+    <MESSAGE value="Changing &quot;Add Teams&quot; in the admin section to &quot;Add/Edit Teams&quot;" />
+    <MESSAGE value="Added Delete functionality to games in the Admin section.&#10;Moved admin views under the admin folder." />
+    <MESSAGE value="Removed bootstrap collapse plugin, found out it was included in the boostrap main file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_attachments/js/main.js">
+    <entry file="file://$PROJECT_DIR$/_attachments/js/views/teams/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_attachments/js/views/main/display.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_attachments/js/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_attachments/js/libs/bootstrap/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="417" column="62" selection-start="12184" selection-end="12184" vertical-scroll-proportion="0.304248" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_attachments/js/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
@@ -650,84 +679,58 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/views/templates/teams/editTeam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="36" selection-end="36" vertical-scroll-proportion="0.02881356" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/models/game.js">
+    <entry file="file://$PROJECT_DIR$/_attachments/js/libs/bootstrap/bootstrap-datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/views/templates/game/game.html">
+    <entry file="file://$PROJECT_DIR$/_attachments/style/datepicker.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="4283" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/views/game/game.js">
+    <entry file="file://$PROJECT_DIR$/_attachments/js/libs/bootstrap/bootstrap-timepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="788" column="17" selection-start="29098" selection-end="29098" vertical-scroll-proportion="20.144361" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filters/by_collection.js">
+    <entry file="file://$PROJECT_DIR$/_attachments/style/timepicker.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="305" selection-end="305" vertical-scroll-proportion="0.19318181" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/libs/backbone_couchdb/backbone-couchdbmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="692" selection-end="692" vertical-scroll-proportion="0.31011608" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/views/teams/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="50" selection-start="876" selection-end="876" vertical-scroll-proportion="0.44805196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/views/teams/addTeam.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="65" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/collections/games.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="61" selection-start="187" selection-end="187" vertical-scroll-proportion="0.19318181">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/views/admin/display.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="277" selection-end="277" vertical-scroll-proportion="0.35876623">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/views/game/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="76" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_attachments/js/views/admin/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="30" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="91" column="0" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.9495549" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_attachments/js/views/game/addGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="55" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="50" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_attachments/js/views/game/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="34" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_attachments/js/views/templates/game/addGame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="439" selection-end="439" vertical-scroll-proportion="0.37457627">
+        <state line="21" column="25" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_attachments/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_attachments/js/views/templates/teams/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="71" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_attachments/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="60" selection-start="652" selection-end="652" vertical-scroll-proportion="0.3234245">
           <folding />
         </state>
       </provider>

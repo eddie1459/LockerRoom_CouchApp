@@ -9,6 +9,13 @@
     <option value="{{_id}}">{{name}}</option>
     {{/teams}}
 </select>
+<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="mm-dd-yyyy">
+    <input id='gamedate' size="16" type="text" readonly="">
+    <span class="add-on"><i class="icon-th"></i></span>
+</div>
+<div class="input-append bootstrap-timepicker-component">
+    <input class="input-small timepicker-default" type="text"><span class="add-on"><i class="icon-time"></i></span>
+</div>
 <input type='submit' id='createGame' />
 <!--<select id="#team2"><option value="{{name}}">{{name}}</option></select>
 <label for='name'>Name: </label><input type='text' id='name'/></p><input type='submit' id='send' />-->

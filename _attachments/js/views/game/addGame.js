@@ -24,14 +24,19 @@ define([
             var view = new adminTeamList();
             view.refreshed();
             $("#content").append(view.render());
+            $('#dp3').datepicker();
+            $('.timepicker-default').timepicker();
         },
         initialize : function(){
+
         },
         onCreateGame : function(){
             var team1Id = $("#team1").val();
             var team2Id = $("#team2").val();
             var team1Name = $("#team1 option:selected").text();
             var team2Name = $("#team2 option:selected").text();
+            var gameDate = $("#gamedate").val();
+            var gametime = $("#gametime").val();
 
             // sanitize user input...you never know ;)
             Games.create({
@@ -39,7 +44,8 @@ define([
                 "team2" : team2Name,
                 "teamId1" : team1Id,
                 "teamId2" : team2Id,
-                "date" : new Date().getTime()
+                "date" : gameDate,
+                "time" : gametime
             });
             this.render();
         }
