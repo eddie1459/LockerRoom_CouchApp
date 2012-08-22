@@ -17,11 +17,6 @@ body {
     width: 0;
 }
 
-#teamLineItem li {
-    float: left;
-    /*clear: both;*/
-}
-
 #edititem li {
     display: inline;
     margin: 0;
