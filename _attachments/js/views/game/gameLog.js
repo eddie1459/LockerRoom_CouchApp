@@ -12,7 +12,22 @@ define([
     var logView = backbone.View.extend({
         el: $("#content"),
         events : {
-            "click #createMsg" : "onCreateMessage"
+            "click #createMsg" : "onCreateMessage",
+            "keyup #message" : "checkFilled"
+        },
+        checkFilled : function() {
+            var filled = 0
+            var x = $("#message").val();
+            x = x.replace(/^\s+/,""); // strip leading spaces
+            if (x.length > 0) {filled ++}
+
+            if (filled == 1) {
+                $('#createMsg').removeAttr("disabled");
+            }
+            else
+            {
+                $('#createMsg').attr('disabled', "disabled");
+            } // in case a field is filled then erased
         },
         initialize : function(gameId){
             globalGameId = gameId;
@@ -41,6 +56,7 @@ define([
                 filteredCollection.each(this.addRow);
             }
             $("#content").append(_.template(messageAddTemplate));
+            $('#createMsg').attr('disabled', "disabled");
         },
         // Prepends an entry row
         addRow : function(message){

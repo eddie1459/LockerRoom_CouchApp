@@ -10,7 +10,7 @@ define([
         template : _.template(editTeamTemplate),
         // If there's a change in our model, rerender it
         events : {
-            "click .delete" : "deleteMe"
+            "click #delete" : "deleteMe"
         },
         deleteMe : function(e){
             if(this.model)

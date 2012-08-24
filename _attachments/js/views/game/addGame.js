@@ -39,6 +39,7 @@ define([
             var gametime = $("#gametime").val();
 
             // sanitize user input...you never know ;)
+            if (team1Id != team2Id){
             Games.create({
                 "team1" : team1Name,
                 "team2" : team2Name,
@@ -47,6 +48,10 @@ define([
                 "date" : gameDate,
                 "time" : gametime
             });
+            }else{
+                alert("Cannot schedule same teams!!");
+            }
+
             this.render();
         }
     });

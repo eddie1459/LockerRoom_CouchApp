@@ -10,7 +10,7 @@ define([
     var view = backbone.View.extend({
         // If there's a change in our model, rerender it
         el: $("#content"),
-        className : "nav nav-tabs nav-stacked",
+        /*className : "nav nav-tabs nav-stacked",*/
         events : {
             "click #send" : "onSubmit"
         },
@@ -42,10 +42,12 @@ define([
             var name = $("#name").val();
             // sanitize user input...you never know ;)
             name = name.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+            if (name != ""){
             Teams.create({
                 "name" : name,
                 "date" : new Date().getTime()
             });
+            }
             this.refreshTeams();
         }
     });
